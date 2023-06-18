@@ -1,4 +1,9 @@
 # terraform folder
-.terraform
-# lock.hcl
-*.terraform.*
+.terraform/*
+
+#terraform state
+*.tfstate
+*.tfstate.*
+
+#tf variable files may include sensitive data
+*.tfvars
