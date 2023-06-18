@@ -1,0 +1,4 @@
+# terraform folder
+.terraform
+# lock.hcl
+*.terraform.*
